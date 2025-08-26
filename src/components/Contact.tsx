@@ -149,8 +149,6 @@ export const Contact = () => {
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li>• Full-time Data Analyst positions</li>
                     <li>• Freelance data analysis projects</li>
-                    <li>• Consulting opportunities</li>
-                    <li>• Remote collaborations</li>
                   </ul>
                 </div>
               </CardContent>
