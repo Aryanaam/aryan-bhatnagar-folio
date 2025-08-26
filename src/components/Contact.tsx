@@ -85,7 +85,7 @@ export const Contact = () => {
                     <span className="font-medium">Location</span>
                   </div>
                   <p className="text-muted-foreground">Agra, India</p>
-                  <p className="text-sm text-muted-foreground mt-1">Open to remote opportunities</p>
+                  
                 </div>
               </CardContent>
             </Card>
