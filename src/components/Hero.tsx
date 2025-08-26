@@ -6,7 +6,7 @@ import avatarImage from "@/assets/aryan-avatar.jpg";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center gradient-hero text-white overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center gradient-hero text-white overflow-hidden mt-20">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
