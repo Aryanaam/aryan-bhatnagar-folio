@@ -25,7 +25,7 @@ export const Hero = () => {
           <div className="mb-8 relative">
             <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-primary shadow-glow animate-float">
               <img 
-                src={avatarImage} 
+                src="/lovable-uploads/c3501550-0467-4149-b453-7cf09ba0adde.png" 
                 alt="Aryan Bhatnagar" 
                 className="w-full h-full object-cover"
               />
