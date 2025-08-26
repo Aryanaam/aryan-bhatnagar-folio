@@ -50,8 +50,7 @@ export const Hero = () => {
           </div>
 
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            <span className="text-hero-accent font-semibold">BCA Graduate</span> & 
-            <span className="text-hero-accent font-semibold"> Data Analytics Professional</span>
+            <span className="text-hero-accent font-semibold">Data Analytics Professional</span>
             <br />
             Transforming data into actionable insights with Python, SQL, Power BI & Tableau
           </p>
