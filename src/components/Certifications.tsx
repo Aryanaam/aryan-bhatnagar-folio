@@ -78,10 +78,23 @@ export const Certifications = () => {
             <Card key={index} className="gradient-card shadow-card hover:shadow-elegant transition-all duration-300 group overflow-hidden">
               <div className="relative">
                 {/* Certificate Image Placeholder */}
-                <div className="h-48 bg-gradient-to-br from-primary/10 to-primary/20 flex items-center justify-center group-hover:from-primary/20 group-hover:to-primary/30 transition-all">
-                  <div className="text-center">
-                    <Award className="w-16 h-16 text-primary mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                    <p className="text-sm text-muted-foreground font-medium">Certificate</p>
+                <div className="h-48 bg-gradient-to-br from-primary/10 to-primary/20 flex items-center justify-center group-hover:from-primary/20 group-hover:to-primary/30 transition-all overflow-hidden">
+                  <img 
+                    src={`/placeholder.svg?height=192&width=384&text=${encodeURIComponent(cert.title.substring(0, 20))}`}
+                    alt={`${cert.title} Certificate`}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      const target = e.currentTarget as HTMLImageElement;
+                      const fallback = target.nextElementSibling as HTMLElement;
+                      target.style.display = 'none';
+                      if (fallback) fallback.style.display = 'flex';
+                    }}
+                  />
+                  <div className="hidden w-full h-full bg-gradient-to-br from-primary/10 to-primary/20 items-center justify-center">
+                    <div className="text-center">
+                      <Award className="w-16 h-16 text-primary mx-auto mb-2 group-hover:scale-110 transition-transform" />
+                      <p className="text-sm text-muted-foreground font-medium">Certificate</p>
+                    </div>
                   </div>
                 </div>
                 

@@ -42,12 +42,6 @@ export const Hero = () => {
             Aryan Bhatnagar
           </h1>
           
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Badge variant="outline" className="text-primary border-primary">
-              <MapPin className="w-4 h-4 mr-1" />
-              Agra, India
-            </Badge>
-          </div>
 
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
             <span className="text-hero-accent font-semibold">Data Analytics Professional</span>

@@ -79,14 +79,6 @@ export const Contact = () => {
                   ))}
                 </div>
 
-                <div className="mt-8 p-4 bg-primary/5 rounded-xl border border-primary/20">
-                  <div className="flex items-center gap-3 mb-2">
-                    <MapPin className="w-5 h-5 text-primary" />
-                    <span className="font-medium">Location</span>
-                  </div>
-                  <p className="text-muted-foreground">Agra, India</p>
-                  
-                </div>
               </CardContent>
             </Card>
 
