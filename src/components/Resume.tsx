@@ -134,53 +134,6 @@ export const Resume = () => {
 
           {/* Additional Resources */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
-            <Card className="gradient-card shadow-card hover:shadow-elegant transition-all group text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
-                  <FileText className="w-6 h-6 text-primary group-hover:text-white" />
-                </div>
-                <h3 className="font-semibold mb-2">Portfolio</h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Detailed project showcase with code samples and live demos
-                </p>
-                <Button variant="outline" size="sm" className="group/btn">
-                  <ExternalLink className="w-4 h-4 mr-2 group-hover/btn:animate-bounce" />
-                  View Portfolio
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="gradient-card shadow-card hover:shadow-elegant transition-all group text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
-                  <FileText className="w-6 h-6 text-primary group-hover:text-white" />
-                </div>
-                <h3 className="font-semibold mb-2">Cover Letter</h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Personalized cover letter template for specific opportunities
-                </p>
-                <Button variant="outline" size="sm" className="group/btn">
-                  <Download className="w-4 h-4 mr-2 group-hover/btn:animate-bounce" />
-                  Request Letter
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="gradient-card shadow-card hover:shadow-elegant transition-all group text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
-                  <FileText className="w-6 h-6 text-primary group-hover:text-white" />
-                </div>
-                <h3 className="font-semibold mb-2">References</h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Professional references available upon request
-                </p>
-                <Button variant="outline" size="sm" className="group/btn">
-                  <ExternalLink className="w-4 h-4 mr-2 group-hover/btn:animate-bounce" />
-                  Contact for References
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
